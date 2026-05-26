@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "version": "3.0.0",
+    "project": "Centro Médico El Bosque",
+    "type": "landing"
+  },
+  "brand": {
+    "name": "Centro Médico El Bosque",
+    "logo": {
+      "src": "/images/brand/logo.svg",
+      "alt": "Logo Centro Médico El Bosque",
+      "width": 200,
+      "height": 60
+    },
+    "favicon": "/favicon.ico"
+  },
+  "colors": {
+    "_guide": "Preset Clínica: Azul/Blanco profesional.",
+    "primary": "#0ea5e9",
+    "primaryDark": "#0284c7",
+    "accent": "#10b981",
+    "bgPrimary": "#ffffff",
+    "bgSecondary": "#f0f9ff",
+    "textPrimary": "#1e293b",
+    "textSecondary": "#64748b"
+  },
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter"
+  },
+  "seo": {
+    "title": "Centro Médico El Bosque | Castro, Chiloé",
+    "description": "Centro médico multidisciplinario en Castro. Más de 15 especialidades, laboratorio clínico con resultados en 1 hora, convenios Fonasa e Isapre.",
+    "ogTitle": "Centro Médico El Bosque | Tu salud, todas las especialidades",
+    "ogDescription": "Atención integral en salud en el corazón de Castro. Profesionales de excelencia, resultados rápidos y convenios.",
+    "ogImage": "/images/brand/og-image.jpg",
+    "canonicalUrl": "https://www.centromedicoelbosque.cl",
+    "locale": "es_CL"
+  },
+  "contact": {
+    "whatsapp": {
+      "number": "56966536246",
+      "message": "Hola, quisiera información sobre el Centro Médico El Bosque.",
+      "label": "Contáctanos"
+    },
+    "email": "contacto@centromedicoelbosque.cl"
+  },
+  "animations": {
+    "level": 2
+  },
+  "sections": [
+    {
+      "id": "navbar",
+      "type": "navbar",
+      "links": [
+        { "text": "Servicios", "href": "#servicios" },
+        { "text": "Equipo Médico", "href": "#equipo" },
+        { "text": "Laboratorio", "href": "#laboratorio" },
+        { "text": "Convenios", "href": "#convenios" },
+        { "text": "Contacto", "href": "#contacto" }
+      ],
+      "cta": { "text": "Agendar Hora", "href": "#contacto" }
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "badge": "🏥 Centro Médico Multidisciplinario en Castro",
+      "headline": "Tu salud, todas las especialidades, un solo lugar",
+      "subheadline": "Más de 15 especialidades médicas, laboratorio con resultados en 1 hora y convenios Fonasa e Isapre. En el corazón de Castro, Chiloé.",
+      "ctas": [
+        { "text": "Agenda tu hora →", "href": "#contacto", "variant": "primary" },
+        { "text": "Conoce nuestros servicios", "href": "#servicios", "variant": "secondary" }
+      ],
+      "media": { "type": "image", "src": "/images/hero/hero-main.webp", "alt": "Fachada del Centro Médico El Bosque" }
+    },
+    {
+      "id": "servicios",
+      "type": "services-detail",
+      "sectionLabel": "Nuestras Especialidades",
+      "headline": "Atención Integral para Toda la Familia",
+      "items": [
+         { "icon": "heart-pulse", "title": "Medicina General", "body": "Atención integral para niños, adultos y tercera edad." },
+         { "icon": "activity", "title": "Traumatología y Ortopedia", "body": "Tratamiento de lesiones deportivas y problemas articulares." },
+         { "icon": "eye", "title": "Oftalmología", "body": "Cuidamos tu visión con exámenes avanzados y recetas de lentes." },
+         { "icon": "test-tube", "title": "Laboratorio Clínico", "body": "Resultados rápidos en 1 hora para exámenes clave." },
+         { "icon": "sparkles", "title": "Tratamientos Estéticos", "body": "Depilación láser, HIFU, peeling y fotorejuvenecimiento." },
+         { "icon": "users", "title": "Kinesiología", "body": "Rehabilitación integral, respiratoria y motora. Evaluaciones sin costo." },
+         { "icon": "footprints", "title": "Podología Clínica", "body": "Cuidado especializado para la salud de sus pies." },
+         { "icon": "brain", "title": "Neurocirugía", "body": "Evaluación y tratamiento de patologías neurológicas." },
+         { "icon": "sun", "title": "Dermatología", "body": "Atención experta para el cuidado de su piel." },
+         { "icon": "smile", "title": "Pediatría", "body": "Atención especializada para los más pequeños." },
+         { "icon": "message-circle", "title": "Psicología", "body": "Apoyo y bienestar para la salud mental." },
+         { "icon": "baby", "title": "Matronería", "body": "Cuidado integral de la salud de la mujer." },
+         { "icon": "smile-plus", "title": "Ortodoncia", "body": "Especialistas en sonrisas perfectas y salud dental." },
+         { "icon": "leaf", "title": "Medicina Complementaria Integrativa", "body": "Terapias alternativas y naturales para el bienestar integral." }
+      ]
+    },
+    {
+      "id": "laboratorio",
+      "type": "highlight-banner",
+      "headline": "Resultados de Laboratorio en 1 Hora",
+      "subheadline": "Detección rápida de Influenza A/B y Bordetella Pertussis. Fonasa, Isapre y particular.",
+      "cta": { "text": "Más información", "href": "#contacto" }
+    },
+    {
+      "id": "equipo",
+      "type": "team-directory",
+      "sectionLabel": "Nuestro Equipo Médico",
+      "headline": "Profesionales Comprometidos con tu Bienestar",
+      "items": [
+         { "name": "Dr. Roberto Oliver Alarcon", "role": "Medicina General", "piso": "1er Piso" },
+         { "name": "Dr. Miguel Cantos", "role": "Medicina General", "piso": "1er Piso" },
+         { "name": "Dr. Jonathan Soto", "role": "Pediatría", "piso": "1er Piso" },
+         { "name": "Dr. Daniel Bucobo", "role": "Traumatología y Ortopedia", "piso": "1er Piso" },
+         { "name": "Juan Vargas", "role": "Oftalmología", "piso": "1er Piso" },
+         { "name": "Dr. Marcell Contreras", "role": "Neurocirugía", "piso": "2do Piso" },
+         { "name": "Dr. Víctor López Barra", "role": "Dermatología", "piso": "2do Piso" },
+         { "name": "Dr. Claudio Klenner", "role": "Pediatría", "piso": "2do Piso" },
+         { "name": "Dolly Barria", "role": "Psicología", "piso": "2do Piso", "whatsapp": "56998808692" },
+         { "name": "Andrea Paredes", "role": "Matronería", "piso": "2do Piso" },
+         { "name": "Javiera Duncker", "role": "Matronería", "piso": "2do Piso" },
+         { "name": "Dr. Héctor Guarateguia", "role": "Ortodoncia", "piso": "3er Piso", "whatsapp": "56956073189" },
+         { "name": "Carolina Barrientos Gómez", "role": "Medicina Complementaria", "piso": "Otros" },
+         { "name": "Equipo Kinesiología Chiloé", "role": "Kinesiología", "piso": "Otros", "whatsapp": "56966536246" }
+      ]
+    },
+    {
+      "id": "convenios",
+      "type": "convenios",
+      "sectionLabel": "Facilidades de Pago",
+      "headline": "Convenios y Formas de Pago",
+      "items": [ "Fonasa", "Isapres", "Convenios Institucionales", "Efectivo", "Débito", "Crédito" ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "sectionLabel": "Dudas Frecuentes",
+      "headline": "Preguntas Frecuentes",
+      "schema": true,
+      "items": [
+        { "question": "¿Cómo agendo una hora médica?", "answer": "Puedes llamar directamente a la secretaría del piso correspondiente o escribir por WhatsApp al número de la especialidad." },
+        { "question": "¿Atienden por Fonasa e Isapre?", "answer": "Sí, contamos con convenios con Fonasa e Isapres para la mayoría de nuestros servicios." },
+        { "question": "¿Cuánto demoran los resultados del laboratorio?", "answer": "Nuestro laboratorio clínico entrega resultados en solo 1 hora para exámenes como Influenza A/B y Bordetella Pertussis." }
+      ]
+    },
+    {
+      "id": "contacto",
+      "type": "contact-multi",
+      "sectionLabel": "Agenda tu Hora",
+      "headline": "¿Listo para cuidar tu salud?",
+      "subheadline": "Agenda tu hora hoy y accede a atención médica de calidad en Castro, Chiloé."
+    },
+    {
+      "id": "mapa",
+      "type": "map-embed",
+      "address": "Calle Ignacio Serrano 458, Castro – Chiloé"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "tagline": "Tu salud, todas las especialidades, un solo lugar.",
+      "social": {
+         "instagram": "#",
+         "facebook": "#"
+      }
+    }
+  ]
+}
