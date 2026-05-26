@@ -78,7 +78,11 @@ export function Services() {
             <CarouselContent className="-ml-2 md:-ml-4">
               {servicesConfig.items?.map((item: any, index: number) => {
                 const IconComponent = iconMap[item.icon] || Activity;
-                const slug = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                const slug = item.title
+                  .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents
+                  .toLowerCase()
+                  .replace(/[^a-z0-9]+/g, '-')
+                  .replace(/^-|-$/g, ''); // trim leading/trailing dashes
                 const image = getImageOrPlaceholder("services", slug);
 
                 return (

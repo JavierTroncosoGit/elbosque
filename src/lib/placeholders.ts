@@ -6,8 +6,8 @@ export const PLACEHOLDERS = {
     alt: "Recepción del Centro Médico El Bosque"
   },
   brand: {
-    logo: "/images/brand/logo.svg",
-    favicon: "/favicon.ico",
+    logo: "/images/brand/logo-laboratorio.png",
+    favicon: "/images/brand/logo-laboratorio.png",
     ogImage: "/images/brand/og-image.jpg"
   },
   team: {
@@ -27,20 +27,22 @@ export const PLACEHOLDERS = {
     "equipo-kinesiologia": { src: "/images/team/equipo-kinesiologia.webp", alt: "Equipo Kinesiología", dimensions: "400x400" }
   },
   services: {
-    "medicina-general": { src: "/images/services/srv-medicina-general.webp", alt: "Medicina General", dimensions: "600x400" },
-    "traumatologia-ortopedia": { src: "/images/services/srv-traumatologia-ortopedia.webp", alt: "Traumatología y Ortopedia", dimensions: "600x400" },
-    "oftalmologia": { src: "/images/services/srv-oftalmologia.webp", alt: "Oftalmología", dimensions: "600x400" },
-    "laboratorio-clinico": { src: "/images/services/srv-laboratorio-clinico.webp", alt: "Laboratorio Clínico", dimensions: "600x400" },
-    "tratamientos-esteticos": { src: "/images/services/srv-tratamientos-esteticos.webp", alt: "Tratamientos Estéticos", dimensions: "600x400" },
-    "kinesiologia": { src: "/images/services/srv-kinesiologia.webp", alt: "Kinesiología", dimensions: "600x400" },
-    "podologia-clinica": { src: "/images/services/srv-podologia-clinica.webp", alt: "Podología Clínica", dimensions: "600x400" },
-    "neurocirugia": { src: "/images/services/srv-neurocirugia.webp", alt: "Neurocirugía", dimensions: "600x400" },
-    "dermatologia": { src: "/images/services/srv-dermatologia.webp", alt: "Dermatología", dimensions: "600x400" },
-    "pediatria": { src: "/images/services/srv-pediatria.webp", alt: "Pediatría", dimensions: "600x400" },
-    "psicologia": { src: "/images/services/srv-psicologia.webp", alt: "Psicología", dimensions: "600x400" },
-    "matroneria": { src: "/images/services/srv-matroneria.webp", alt: "Matronería", dimensions: "600x400" },
-    "ortodoncia": { src: "/images/services/srv-ortodoncia.webp", alt: "Ortodoncia", dimensions: "600x400" },
-    "medicina-complementaria": { src: "/images/services/srv-medicina-complementaria.webp", alt: "Medicina Complementaria", dimensions: "600x400" }
+    "medicina-general": { src: "/images/services/srv-medicina-general.png", alt: "Medicina General", dimensions: "600x400" },
+    "traumatologia-ortopedia": { src: "/images/services/srv-traumatologia-ortopedia.png", alt: "Traumatología y Ortopedia", dimensions: "600x400" },
+    "traumatologia-y-ortopedia": { src: "/images/services/srv-traumatologia-ortopedia.png", alt: "Traumatología y Ortopedia", dimensions: "600x400" },
+    "oftalmologia": { src: "/images/services/srv-oftalmologia.png", alt: "Oftalmología", dimensions: "600x400" },
+    "laboratorio-clinico": { src: "/images/services/srv-laboratorio-clinico.png", alt: "Laboratorio Clínico", dimensions: "600x400" },
+    "tratamientos-esteticos": { src: "/images/services/srv-tratamientos-esteticos.png", alt: "Tratamientos Estéticos", dimensions: "600x400" },
+    "kinesiologia": { src: "/images/services/srv-kinesiologia.png", alt: "Kinesiología", dimensions: "600x400" },
+    "podologia-clinica": { src: "/images/services/srv-podologia-clinica.png", alt: "Podología Clínica", dimensions: "600x400" },
+    "neurocirugia": { src: "/images/services/srv-neurocirugia.png", alt: "Neurocirugía", dimensions: "600x400" },
+    "dermatologia": { src: "/images/services/srv-dermatologia.png", alt: "Dermatología", dimensions: "600x400" },
+    "pediatria": { src: "/images/services/srv-pediatria.png", alt: "Pediatría", dimensions: "600x400" },
+    "psicologia": { src: "/images/services/srv-psicologia.png", alt: "Psicología", dimensions: "600x400" },
+    "matroneria": { src: "/images/services/srv-matroneria.png", alt: "Matronería", dimensions: "600x400" },
+    "ortodoncia": { src: "/images/services/srv-ortodoncia.png", alt: "Ortodoncia", dimensions: "600x400" },
+    "medicina-complementaria": { src: "/images/services/srv-medicina-complementaria.png", alt: "Medicina Complementaria", dimensions: "600x400" },
+    "medicina-complementaria-integrativa": { src: "/images/services/srv-medicina-complementaria.png", alt: "Medicina Complementaria Integrativa", dimensions: "600x400" }
   }
 };
 

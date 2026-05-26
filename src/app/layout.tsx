@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.seo.canonicalUrl),
   title: siteConfig.seo.title,
   description: siteConfig.seo.description,
+  icons: {
+    icon: siteConfig.brand.favicon,
+    apple: siteConfig.brand.favicon,
+  },
   openGraph: {
     title: siteConfig.seo.ogTitle,
     description: siteConfig.seo.ogDescription,

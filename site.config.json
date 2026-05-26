@@ -7,12 +7,12 @@
   "brand": {
     "name": "Centro Médico El Bosque",
     "logo": {
-      "src": "/images/brand/logo.svg",
+      "src": "/images/brand/logo-laboratorio.png",
       "alt": "Logo Centro Médico El Bosque",
       "width": 200,
       "height": 60
     },
-    "favicon": "/favicon.ico"
+    "favicon": "/images/brand/logo-laboratorio.png"
   },
   "colors": {
     "_guide": "Preset Clínica: Azul/Blanco profesional.",
